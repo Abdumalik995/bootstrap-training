@@ -1,6 +1,9 @@
 #area {
 	width: 70%;
-	height: 200px;
+	height: 300px;
 	overflow: hidden;
 	box-shadow: 0px 0px 20px  #efe8e8;
+}
+ul li .fab {
+	font-size: 25px;
 }
