@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 text-center text-md-left">
-					<h3 class="mb-5 font-italic text-warning">
+					<h3 class="mb-5 font-italic text-info">
 						Abdumalik
 					</h3>
 					<div class="my-5 py-5">
@@ -30,24 +30,23 @@
 						</h6>
 						<button class="btn btn-lg btn-danger px-5 mt-5">Hire me</button>
 						<ul class="list-unstyled list-inline text-muted mt-5">
-							<li class="list-inline-item pr-2 text-danger"><i class="fab fa-facebook-f"></i></li>
+							<li class="list-inline-item pr-2 text-danger"><b><i class="fab fa-facebook-f"></i></b></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-twitter"></i></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-google-plus-g"></i></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-invision"></i></li>
-						</ul>
+						</ul>						
 					</div>
 				</div>	
 			</div>
 		</div>
 	</section>
-	<section id="about" class="pt-3 mb-5">
-		
+	<section id="about" class="pt-3 mb-5">		
 		<div class="container p-5">
 			<h2 class="text-center font-weight-bold mb-4">About <b class="text-danger"> me</b></h2>
-				<div class="m-auto w-50">
-					<ul class="nav nav-pills nav-justified list-unstyled">
+			<div class="m-auto w-50">
+				<ul class="nav nav-pills nav-justified list-unstyled">
 					<li class="nav-item">
-						<a href="#biography" data-toggle="tab" class="nav-link btn border m-2">Biography</a>
+						<a href="#biography" data-toggle="tab" class="nav-link btn border m-2 active">Biography</a>
 					</li>
 					<li class="nav-item">
 						<a href="#education" data-toggle="tab" class="nav-link btn border m-2">Education</a>
@@ -58,14 +57,12 @@
 					<li class="nav-item">
 						<a href="#experience" data-toggle="tab" class="nav-link btn border m-2">Experience</a>
 					</li>
-					</ul>
-
-				</div>
+				</ul>
+			</div>
 		</div>
 		<div class="border p-5 text-center m-auto" id="area">
 			<div class="tab-content">
-
-				<div class="tab-pane fade show" id="biography">
+				<div class="tab-pane fade show active" id="biography">
 					<b>Date of birth: </b><i> 1995 08 19</i><br>
 					<b>School: </b><i> 2002-2011 years</i><br>
 					<b>College: </b><i> 2011-2014 years</i><br>
@@ -106,9 +103,9 @@
 		<div class="container text-left text-md-center">
 			<h2 class="font-weight-bold mt-5">Check my <b class="text-danger">works</b></h2>
 			<div class="row m-5">
-				<div class="col-sm-4"><img src="../img/img1.jpg" class="img-fluid"></div>
-				<div class="col-sm-4"><img src="../img/for.jpg" class="img-fluid"></div>
-				<div class="col-sm-4"><img src="../img/imgg.jpg" class="img-fluid"></div>
+				<div class="col-sm-4"><img src="../img/img1.jpg" class="img-fluid img-thumbnail"></div>
+				<div class="col-sm-4"><img src="../img/for.jpg" class="img-fluid img-thumbnail"></div>
+				<div class="col-sm-4"><img src="../img/imgg.jpg" class="img-fluid img-thumbnail"></div>
 			</div>
 		</div>
 	</section>
@@ -118,7 +115,7 @@
 				<div class="m-2">
 					<ul class="nav nav-pills list-unstyled">
 						<li class="nav-item">
-							<a href="#an1" data-toggle="tab" class="nav-link btn border m-1"></a>
+							<a href="#an1" data-toggle="tab" class="nav-link btn border m-1 active"></a>
 						</li>
 						<li class="nav-item">
 							<a href="#an2" data-toggle="tab" class="nav-link btn border m-1"></a>
@@ -129,7 +126,7 @@
 					</ul>
 				</div>
 				<div class="tab-content">
-					<div class="tab-pane fade show" id="an1">
+					<div class="tab-pane fade show active" id="an1">
 						<p class="lead text-dark pt-md-5">It is along established fact that a reader will be distracted by the content of a page when looking at its layout. The point of using Lorem</p>
 						<h4 class="pt-md-5"><b>Antony Gonzalez</b></h4>
 						<h5 class="text-muted">Web developer</h5>
@@ -168,7 +165,7 @@
 				</div>			
 				<div class="col-md-7 text-center text-md-right">
 					<ul class="list-unstyled list-inline text-muted mt-5">
-							<li class="list-inline-item pr-2 text-danger"><i class="fab fa-facebook-f"></i></li>
+							<li class="list-inline-item pr-2 text-danger"><b><i class="fab fa-facebook-f"></i></b></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-twitter"></i></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-google-plus-g"></i></li>
 							<li class="list-inline-item pr-2"><i class="fab fa-invision"></i></li>
@@ -176,6 +173,25 @@
 			</div>		
 		</div>		
 	</section>	
+	<div class="container">
+		<h2 class="text-center mb-5">Talk to <span class="text-danger">me</span></h2>
+		<div class="row">
+			<form action="" class="offset-sm-3 offset-md-3 col-md-6 col-sm-8">
+				<div class="form-group">
+					<input type="text" name="text" class="form-control" placeholder="Your Name">
+				</div>
+				<div class="form-group">
+					<input type="email" name="mail" class="form-control" placeholder="Your email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="6" placeholder="Type your message"></textarea>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-danger mt-3 px-5">Contact Me</button>
+				</div>
+			</form>
+		</div>
+	</div>
 			
 
 	<script src="jquery.js"></script>

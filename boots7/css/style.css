@@ -9,7 +9,7 @@ ul li .fab {
 }
 #fikr {
 
-	height: 450px;
+	height: 350px;
 	overflow: hidden;
 	box-shadow: 0px 0px 20px  #efe8e8; 
 }
@@ -43,4 +43,9 @@ ul li .fab {
     border: none;
     box-shadow: 0px 0px 10px #7b7474;
     cursor: pointer;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    font-weight: bold;
+    background-color: #009688;
 }
