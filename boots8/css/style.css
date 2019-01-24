@@ -1,5 +1,5 @@
 #hero {
-	background: url(../../img/78.png) no-repeat center;
+	background: url(../../img/br.jpg) no-repeat;
 	background-size: cover;
 }
 header {
@@ -7,6 +7,26 @@ header {
 	font-size: 14px;
 }
 header h3 {
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	font-family: 'Yellowtail', cursive;
+}
+header .fab {
+	font-size: 20px;
+}
+#hero h1 {
+	font-family: 'Patua One', cursive;
+	
+}
+#hero h5 {
+	letter-spacing: 2px;
+	/*color: #9E9E9E;*/
+}
+#hero button {
+	background-color:rgba(0, 0, 0, 0.4);
+}
+#cakes {
+
+}
+.fon {
+	height: ;
 }
