@@ -27,31 +27,36 @@ header .fab {
 #cakes {
 
 }
-.fon {
-	height: ;
-}
+
 #pancake {
 	position: relative;
-	background: url(../../img/brk.jpg) no-repeat;
+	background: url(../../img/pastry.jpg) no-repeat;
 	background-size: cover;
 }
-.img img {
-	width: 80px;
-	height: 80px;
+.img {
+	width: 70px;
+	height: 70px;
 
 }
 #pancake .row {
 	position: relative;
+
 }
 #badge {
 	position: absolute;
 	height: 150px;
-	background-color: #795548;
-	box-shadow: 0px 0px 20px  #ebeff3; 
-	  
-    
-    right: 50px;
-    top:10px;
+	background-color:rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 20px  #000; 
+	right: 50px;
+    top:-40px;
     z-index: 3;
 }
+#break {
+	background: url(../../img/38.jpg)no-repeat;
+	background-size: cover;
 }
+#sand {
+
+}
+
+    
