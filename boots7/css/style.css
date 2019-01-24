@@ -21,29 +21,7 @@ ul li .fab {
 #mail {
 	box-shadow: 0px 0px 20px  #efe8e8; 
 }
-#mail>form>input, #mail>form>textarea {
-    margin-bottom: 20px;
-    width: 50%;
-    height: 40px;
-    background: #ccf;
-    font-size: 16px;
-    font-weight: 500;
-    padding-left: 20px;
-    border: none;
-    border-radius: 3px;
-}
-#mail>form>#sub {
-	margin-top: 25px;
-    margin-bottom: 70px;
-    width: 170px;
-    height: 45px;
-    background: crimson;
-    color: #fff;
-    text-align: center;
-    border: none;
-    box-shadow: 0px 0px 10px #7b7474;
-    cursor: pointer;
-}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
     font-weight: bold;
