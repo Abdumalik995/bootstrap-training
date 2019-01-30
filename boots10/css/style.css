@@ -6,5 +6,5 @@ main {
 	height: 100vh;
 }
 .nav-link.active {
-	back
+	background: #fff;
 }

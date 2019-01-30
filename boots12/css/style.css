@@ -1,0 +1,35 @@
+
+.rasm img{
+	width: 30px;
+	height: 30px;
+}
+.rasm .far {
+	font-size: 25px;
+}
+#rasm {
+	background: #eee;
+} 
+
+#rasm li:hover  {
+	background: #fff !important;
+	color: blue;
+}
+
+.fon img {
+	width: 35px;
+	height: 35px;
+}
+.back {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #cec;
+}
+.list:hover {
+	background: #079e90;
+	color: #fff;
+}
+.kf {
+	width: 12px;
+	height: 12px;
+}

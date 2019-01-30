@@ -8,7 +8,121 @@
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<style>
+		@keyframes move {
+			0%{transform: rotate(-10deg);}
+			100%{transform: rotate(20deg);}
+		}
+		@keyframes moveback {
+			0%{transform: translate(0) rotate(0deg);}
+			50%{transform: translatex(300px) rotate(360deg);}
+			100%{transform: translatex(0) rotate(0deg);}
+		}
+		@keyframes jump{
+			0%{}
+		}
+		strong.border {
+			display: inline-block;
+			animation-name: move;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-fill-mode: both;
+			animation-delay: 1s;
+		}
+		strong.border:nth-of-type(2) {
+			animation-delay: 0.3s;
+		}
+		strong.border:nth-of-type(3) {
+			animation-delay: 0.5s;
+		}
+		strong.border:nth-of-type(4) {
+			animation-delay: 0.8s;
+		}
+		strong.border:nth-of-type(5) {
+			animation-name: moveback;
+			animation-duration: 4s;
+			animation-delay: 0.1s;
+		}
+		
+	</style>
+</head>
 <body>
+	<div class="container">
+		<form action="#">
+			<div class="form-group position-relative">
+				<input type="text" class="form-control">
+					<span class="position-absolute" style="top:0">bbb</span>
+				</input>
+			</div>
+		</form>
+
+		<div class="border border-primary rounded">
+			<strong class="text-white border border-success rounded-circle bg-success px-1 m-1 small">H </strong>
+			<strong class="text-white border border-danger rounded-circle bg-danger px-1 m-1">E </strong>
+			<strong class="text-white border border-warning rounded-circle bg-warning px-1 m-1">L </strong>
+			<strong class="text-white border border-primary rounded-circle bg-primary px-1 m-1">L </strong>
+			<strong class="text-white border border-dark rounded-circle bg-dark px-1 m-1">O </strong>
+			<strong class="text-white border border-dark rounded-circle bg-dark px-1 m-1 d-none">O </strong>
+		</div>
+	</div>
+	<div class="">
+		<button class="btn d-block d-md-inline-block btn-lg btn-success rounded">hello</button>
+		<button class="btn d-block d-md-inline-block btn-lg btn-primary rounded">button</button>
+		<button class="btn d-block d-md-inline-block btn-lg btn-danger rounded">bye</button>
+		<button class="btn d-block d-md-inline-block btn-lg btn-warning rounded">something</button>
+	</div>
+
+	<!-- <div class="embed-responsive embed-responsive-21by9">
+		<video src="" class="embed-responsive-item" controls="true"></video>
+				<img src="../img/cfc.jpg" class="embed-responsive-item"></img> 
+		
+	</div>-->
+			
+	<div class="d-flex justify-content-around align-items-baseline flex-wrap">
+		<h4 class="bg-info">Hello</h4>
+		<h1 class="bg-success">Hello</h1>
+		<h3 class="bg-info align-self-end ml-auto">Hello</h3>
+		<!-- <div class="card">
+			<img src="../img/cfc.jpg" class="card-img img-fluid">
+			<div class="card-title">
+				<h3>Salom</h3>
+			</div>
+			<div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				
+			</div>
+		</div>
+		<div class="card">
+			<img src="../img/cfc.jpg" class="card-img img-fluid">
+			<div class="card-title">
+				<h3>Salom</h3>
+			</div>
+			<div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				
+			</div>
+		</div>
+		<div class="card">
+			<img src="../img/cfc.jpg" class="card-img img-fluid">
+			<div class="card-title">
+				<h3>Salom</h3>
+			</div>
+			<div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				
+			</div>
+		</div> -->
+	</div>
+	<div>
+		<h1 class="float-left">Float</h1>
+		<h1 class="float-right">left</h1>
+		<h1 class="float clearfix">left</h1>
+	</div>	
+
 
 
 
