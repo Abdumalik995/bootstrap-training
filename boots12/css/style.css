@@ -1,4 +1,25 @@
 
+#sup1, #sup2 {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	line-height: 12px;
+	font-size: 8px;
+	top: 0;
+	
+}
+#sup1 {
+	right:40%;
+
+}
+#sup2 {
+	right: 7%;
+}
+.rasm1 img {
+	width: 40px;
+	height: 40px;
+}
+
 .rasm img{
 	width: 30px;
 	height: 30px;
@@ -32,4 +53,31 @@
 .kf {
 	width: 12px;
 	height: 12px;
+}
+@media screen and (max-width: 768px) {
+	#sup1 {
+	right:44%;
+
+	}
+	#sup2 {
+	right: 11%;
+	}
+}
+@media screen and (max-device-width: 768px) {
+	#sup1 {
+	right:44%;
+
+	}
+	#sup2 {
+	right: 11%;
+	}
+}
+@media screen and (max-width: 375px) {
+	#sup1 {
+	right:40%;
+
+	}
+	#sup2 {
+		right: 7%;
+	}
 }

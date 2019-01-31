@@ -19,10 +19,12 @@
 					<img src="../img/hack.jpg" class="mt-1 w-25 img-fluid rounded-circle">
 					<h5 class="text-dark font-weight-bold mt-2 mb-0">A Botirov</h5>
 					<p class="text-muted small ">abdumalik.botirov.95@mail.ru</p>
-					<div class="m-auto w-75 d-flex justify-content-around align-items-space-around text-dark">
+					<div class="m-auto pt-2 w-75 d-flex justify-content-around align-items-space-around text-dark position-relative">
 						<div class="rounded-circle py-1 px-2" style="background: #cec"><i class="fas fa-cog"></i></div>
 						<div class="rounded-circle py-1 px-2" style="background: #cec"><i class="fas fa-envelope"></i></div>
+						<div class="border rounded-circle bg-danger text-light" id="sup1">2</div>
 						<div class="rounded-circle py-1 px-2" style="background: #cec"><i class="fas fa-clock"></i></div>
+						<div class="border rounded-circle bg-danger text-light" id="sup2">5</div>
 					</div>
 					<div class="container mt-4">
 						<p class="text-right small mb-0 text-muted">12/34</p>
@@ -63,7 +65,7 @@
 				</div>
 				<hr class="mt-4">
 				<h5 class="font-weight-bold text-left ml-2">Team</h5>
-				<div class="d-flex justify-content-around align-items-baseline rasm">
+				<div class="d-flex justify-content-around align-items-baseline rasm1">
 					<img src="../img/tash.jpg" class="img-fluid rounded-circle">
 					<img src="../img/info.jpg" class="img-fluid rounded-circle">
 					<img src="../img/ofis.jpg" class="img-fluid rounded-circle">					
@@ -72,7 +74,10 @@
 			</div>
 			<div class="col-md-9 p-0">
 				<div class="d-flex justify-content-between pt-1 px-3 border-bottom align-items-baseline border-right">
-					<p class="text-muted"><i class="fas fa-search mr-2"></i> Search...</p>
+					<p class="text-muted">
+						<i class="fas fa-search mr-2"></i>
+						<input type="text" name="search" class="border-0" placeholder="Search...">
+					</p>
 					<button class="dropdown-toggle btn font-weight-bold" data-toggle="dropdown">All tasks</button>
 						<div class="dropdown-menu">
 							<a href="#" class="dropdown-item">Hello</a>
@@ -89,27 +94,27 @@
 							<h5 class="font-weight-bold">MARKETING</h5>
 							<h5><i class="fas fa-chevron-down"></i></h5>
 						</div>
-						<ul class="list-imline list-unstyled m-0 p-0" id="rasm">
-							<li class="list-inline-item rasm w-100 p-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+						<ul class="list-inline list-unstyled d-flex flex-column" id="rasm">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Create adWords campaign</b><br>22 feb 2018</p>
 							<img src="../img/tash.jpg" class="rounded-circle float-right"></li>
-							<li class="list-inline-item rasm w-100 p-2 border-top mt-0"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top mt-0"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Sales report from 01 02</b><br>15 apr 2018</p>
 							<img src="../img/pexel.jpg" class="rounded-circle float-right"></li>
-							<li class="list-inline-item rasm w-100 p-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Write an article des trands</b><br>12 march 2018</p>
 							<img src="../img/ofis.jpg" class="rounded-circle float-right"></li>
-							<li class="list-inline-item rasm w-100 p-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Send to newsletter to customers</b><br>14 march 2018</p>
 							<img src="../img/ok.jpg" class="rounded-circle float-right"></li>
-							<li class="list-inline-item rasm w-100 p-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Prepare offers customers</b><br>21 march 2018</p>
 							<img src="../img/per.jpg" class="rounded-circle float-right"></li>
-							<li class="list-inline-item rasm w-100 p-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
+							<li class="list-inline-item rasm w-100 py-3 px-2 border-top"><i class="far fa-check-circle mr-2 float-left"></i><p class="small text-muted float-left">
 							<b class="text-dark">Write an articli for forbes</b><br>18 march 2018</p>
 							<img src="../img/person.jpg" class="rounded-circle float-right"></li>							
 						</ul>
-						<div class="text-center"><button data-toggle="tooltip" data-placement="right" class="btn rounded-pill btn-primary m-3" title="Bos jiyan">Add to task</button></div>					
+						<div class="text-center"><button data-toggle="tooltip" data-placement="right" class="btn rounded-pill btn-primary m-1" title="Bos jiyan">Add to task</button></div>					
 					</div>
 					<div class="col-md-7 border p-0 pb-0">
 						<div class="d-flex justify-content-between px-3 py-2 border-bottom">
@@ -132,12 +137,12 @@
 							<div class="p-3">
 								<h5 class="font-weight-bold mb-0">Write an article about design trends</h5>
 								<p class="small text-muted mt-0 mb-3"><i class="fas fa-clock"></i> 12 March 2018</p>
-								<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p class="small mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in
 								cillum dolore eu fugiat nulla pariatur.</p>
-								<hr>
+								<hr class="mt-5">
 								<p class="text-muted small"><b>Oka nowak </b> assigned to A Botirov. 29 01 2019</p>
 								<p class="text-muted small"><b>Oka nowak </b> add to marketing. 20 01 2019</p>
 								<p class="text-muted small"><b>Oka nowak </b> created tasks. 25 01 2019</p>
