@@ -21,6 +21,45 @@
 		@keyframes jump{
 			0%{}
 		}
+		@keyframes ran{
+			0%{color: transparent;}
+			100%{color: white;}
+		}
+		h1 .rm {
+			background: yellow;
+			color: transparent;
+			animation-name: ran;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			
+			
+
+		}
+		h1 .rm:nth-of-type(2) {
+			animation-delay: 0.5s;
+		}
+		h1 .rm:nth-of-type(3) {
+					animation-delay: 0.7s;
+				}
+		h1 .rm:nth-of-type(4) {
+							animation-delay: 0.9s;
+						}
+		h1 .rm:nth-of-type(5) {
+									animation-delay: 1.1s;
+								}
+		h1 .rm:nth-of-type(6) {
+											animation-delay: 1.3s;
+										}
+		h1 .rm:nth-of-type(7) {
+													animation-delay: 1.5s;
+												}
+		h1 .rm:nth-of-type(8) {
+															animation-delay: 1.7s;
+														}
+		h1 .rm:nth-of-type(9) {
+																	animation-delay: 1.9s;
+			}
 		strong.border {
 			display: inline-block;
 			animation-name: move;
@@ -122,6 +161,9 @@
 		<h1 class="float-right">left</h1>
 		<h1 class="float clearfix">left</h1>
 	</div>	
+	<div class="container">
+		<h1 class="display-1 font-weight-bold"><b class="rm">A</b><b class="rm">b</b><b class="rm">d</b><b class="rm">u</b><b class="rm">m</b><b class="rm">a</b><b class="rm">l</b><b class="rm">i</b><b class="rm">k</b></h1>
+	</div>
 
 
 
