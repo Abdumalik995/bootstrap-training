@@ -1,4 +1,10 @@
-
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+}
 #sup1, #sup2 {
 	position: absolute;
 	width: 15px;

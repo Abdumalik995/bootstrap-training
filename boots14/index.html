@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Coiny|Spicy Rice|Indie+Flower" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -29,44 +30,649 @@
 					<li><i class="fas fa-bookmark"></i></li>
 					<li><i class="fab fa-telegram-plane"></i></li>
 				</ul>
-			</div>
-			<div class="col-md-9 border-right pt-2 font-weight-bold">
+				<div class="d-flex justify-content-start align-items-baseline w-50 m-auto pt-5">
+					<button class="btn float-left bt btn-sm w-75 mt-5" data-toggle="modal" data-target="#info" id="jbtn"><i class="fas fa-phone mr-3"></i></button>
+					     
+					<i class="fas fa-journal-whills text-danger"></i>
+				</div>
 				
-					<p class="text-muted float-left ml-4"><i class="fas fa-bolt"></i> Your Productivity Score: <b class="text-dark">88 (Good)</b></p>
-					<div class="float-right d-flex justify-content-around text-muted font-weight-bold mr-4">
-						<p class="mx-3"><i class="fas fa-comment-alt"></i> Chats <span class="rounded bg-danger text-light px-2"> 2</span></p>
-						<p><i class="fas fa-sliders-h"></i> Settings</p>
-					</div>
+			</div>
+			<div class="col-md-9 border-right pt-2 p-0 font-weight-bold overflow-hidden">				
+				<p class="text-muted float-left ml-4"><i class="fas fa-bolt"></i> Your Productivity Score: <b class="text-dark">88 (Good)</b></p>
+				<div class="float-right d-flex justify-content-around text-muted font-weight-bold mr-4">
+					<p class="mx-3"><i class="fas fa-comment-alt"></i> Chats <span class="rounded bg-danger text-light px-2"> 2</span></p>
+					<p><i class="fas fa-sliders-h"></i> Settings</p>
+				</div>
 			
 				<hr class="mt-4">
-				<div class="d-flex justify-content-start align-items-baseline w-75 mt-4 float-left">
-					<h4 class="font-weight-bold mr-2">Orders</h4>
-					<button class="dropdown-toggle btn btn-outline-secondary mr-2 btn1" data-toggle="dropdown">Status: <span class="font-weight-bold text-dark">All</span> </button>
-					<div class="dropdown-menu">
-						<a href="#" class="dropdown-item">Status</a>
-						<a href="#" class="dropdown-item">Status</a>
-						<a href="#" class="dropdown-item">Status</a>
+				<div class="px-5">
+					<div class="d-flex justify-content-start">
+						<div class="d-flex justify-content-start align-items-baseline mt-3 w-75">
+							<h4 class="font-weight-bold mr-2">Orders</h4>
+							<button class="dropdown-toggle btn btn-outline-light text-muted mr-2 btn1" data-toggle="dropdown">Status: <span class="font-weight-bold text-dark">All</span> </button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Status</a>
+								<a href="#" class="dropdown-item">Status</a>
+								<a href="#" class="dropdown-item">Status</a>
+							</div>
+							<button class="dropdown-toggle btn btn-outline-light text-muted mr-2 btn1" data-toggle="dropdown">Date: <span class="font-weight-bold text-dark">Today</span></button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Today</a>
+								<a href="#" class="dropdown-item">Today</a>
+								<a href="#" class="dropdown-item">Today</a>
+							</div>
+							<button class="btn btn-outline-light text-muted mr-2 btn1 btn2 text-left"><i class="fas fa-search mr-2"></i>Quick search</button>
+						</div>
+						<div class="w-25 mt-4 text-right pt-1"><a href="#">+ New Order</a></div>
 					</div>
-					<button class="dropdown-toggle btn btn-outline-secondary mr-2 btn1" data-toggle="dropdown">Date: <span class="font-weight-bold text-dark">Today</span></button>
-					<div class="dropdown-menu">
-						<a href="#" class="dropdown-item">Today</a>
-						<a href="#" class="dropdown-item">Today</a>
-						<a href="#" class="dropdown-item">Today</a>
-					</div>
-					<button class="btn btn-outline-secondary mr-2 btn1 btn2 text-left"><i class="fas fa-search mr-2"></i>Quick search</button>
 				</div>
-				<div class="float-right w-25 mt-4 text-right pt-2"><a href="#">+ New Order</a></div>
+				<p class="text-primary ml-5 mt-3">ACTIVE NOW</hp>
+				<div class="mx-5">
+					<ul class="d-flex justify-content-start text-muted list-unstyled p-2">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">Order Id</li>
+						<li class="" style="width:10%">Created</li>
+						<li class="" style="width:30%">Costumer</li>
+						<li class="" style="width:10%">Total</li>
+						<li class="" style="width:10%">Profit</li>
+						<li class="" style="width:22%">Status</li>
+						<li class="" style="width:3%">.</li>
+					</ul>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88089</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Caspar sawrey <i class="fas fa-star text-danger"></i> 4.6</li>
+						<li class="" style="width:10%">$383</li>
+						<li class="" style="width:10%">$134 <span class="bg-dark text-light p-1 rounded small">85%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#dbdbfb">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88090</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Mo Chun <i class="fas fa-star text-danger"></i> 4.2</li>
+						<li class="" style="width:10%">$19</li>
+						<li class="" style="width:10%">$12 <span class="bg-dark text-light p-1 rounded small">43%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#afa">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li1">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li1">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88091</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Harinder Mondi <i class="fas fa-star text-danger"></i> 4.9</li>
+						<li class="" style="width:10%">$383</li>
+						<li class="" style="width:10%">$134 <span class="bg-dark text-light p-1 rounded small">85%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#dbdbfb">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li2">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li2">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88070</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Mo Chun <i class="fas fa-star text-danger"></i> 4.2</li>
+						<li class="" style="width:10%">$19</li>
+						<li class="" style="width:10%">$12 <span class="bg-dark text-light p-1 rounded small">43%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#afa">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li3">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li3">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88089</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Caspar sawrey <i class="fas fa-star text-danger"></i> 4.6</li>
+						<li class="" style="width:10%">$383</li>
+						<li class="" style="width:10%">$134 <span class="bg-dark text-light p-1 rounded small">85%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#dbdbfb">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li4">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li4">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mx-5 my-2 p-2 border border-light rounded">
+					<ul class="d-flex justify-content-start text-dark list-unstyled pb-0 mb-0">
+						<li class="" style="width:5%">#</li>
+						<li class="" style="width:10%">88091</li>
+						<li class="" style="width:10%">2 min ago</li>
+						<li class="" style="width:30%">Harinder Mondi <i class="fas fa-star text-danger"></i> 4.9</li>
+						<li class="" style="width:10%">$383</li>
+						<li class="" style="width:10%">$134 <span class="bg-dark text-light p-1 rounded small">85%</span></li>
+						<li class="" style="width:22%">
+							<button class="btn text-primary dropdown-toggle  border btn1" data-toggle="dropdown" style="background:#afa">Pending</button>
+						</li>
+						<li class="" style="width:3%">
+							<button class="btn btn-outline-light text-muted btn-sm rounded" data-toggle="collapse" data-target="#li5">
+								<i class="fas fa-sort-down"></i></button>
+						</li>						
+					</ul>
+					<div class="collapse" id="li5">					
+						<ul class="d-flex justify-content-start text-muted list-unstyled border-bottom pb-1 mx-4 mt-3">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">Sku</li>						
+							<li class="" style="width:40%">Name</li>
+							<li class="" style="width:10%">Pricy</li>
+							<li class="" style="width:10%">Qty</li>
+							<li class="" style="width:10%">Disc</li>
+							<li class="" style="width:15%">Total</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">358652</li>						
+							<li class="" style="width:40%">NetGear R6700 Ac1750</li>
+							<li class="" style="width:10%">$99.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$88.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">386984</li>						
+							<li class="" style="width:40%">Arlo Technologies R6700 Monitor</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x2</li>
+							<li class="" style="width:10%">--</li>
+							<li class="" style="width:10%">$38.00</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">N-2536</li>						
+							<li class="" style="width:40%">Nintendo Switch pro Controller</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">10%</li>
+							<li class="" style="width:10%">$15.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-dark list-unstyled border-bottom pb-1 mx-4">
+							<li class="" style="width:5%">#</li>
+							<li class="" style="width:10%">HT339</li>						
+							<li class="" style="width:40%">HTC Vive Virtual Reality System</li>
+							<li class="" style="width:10%">$19.00</li>
+							<li class="" style="width:10%">x1</li>
+							<li class="text-danger" style="width:10%">5%</li>
+							<li class="" style="width:10%">$18.80</li>
+							<li class="" style="width:5%">...</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Subtoyal</li>
+							<li class="" style="width:15%">$132.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Shipping</li>
+							<li class="" style="width:15%">$2.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Discount</li>
+							<li class="" style="width:15%">$11.00</li>
+						</ul>
+						<ul class="d-flex justify-content-start text-muted list-unstyled pb-1 mx-4">							
+							<li class="text-danger" style="width:55%"></li>
+							<li class="" style="width:30%">Total</li>
+							<li class="" style="width:15%">$134.00</li>
+						</ul>
+					</div>
+				</div>
+
+
 			</div>
-			<div class="col-md-2 border-bottom bt">
-				bgg
+			<div class="col-md-2 pt-2 p-0 bg-light">
+				<p class="text-muted ml-4 mb-0"><i class="fas fa-user"></i> Account </p>
+				<hr class="mt-1">
+				<p class="text-primary mt-5 ml-4 font-weight-bold">Overview</p>
+				<ul class="d-flex flex-column list-unstyled ml-4">
+					<li>
+						<p class="mb-0 text-muted">Orders Today</p>
+						<h4 class="text-dark font-weight-bold mb-4">239</h4>
+					</li>
+					<li>
+						<p class="mb-0 text-muted">Pending Orders</p>
+						<h4 class="text-dark font-weight-bold mb-4">12</h4>
+					</li>
+					<li>
+						<p class="mb-0 text-muted">Delivired</p>
+						<h4 class="text-dark font-weight-bold mb-4">128 <sup class="text-danger">-3%</sup></h4>
+					</li>
+					<li>
+						<p class="mb-0 text-muted">Cancelled</p>
+						<h4 class="text-dark font-weight-bold">25</h4>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+
+					<div class="card pb-2" id="inf1">
+						<div class="card-body red text-white text-center">
+							<h4>Start-Up</h4>
+							<p class="font-weight-bold"> $ <b class="display-4 font-weight-bolder"> 120 </b> /mo</p>
+						</div>
+						<div class="card-text bg-white text-center p-3 font-weight-bolder">
+							<p><b class="redm">10 </b> users included</p>
+							<p><b class="redm">2 GB </b> of storage</p>
+							<p><b class="redm">Free </b> email support</p>
+							<p><b class="redm">Help center access</b></p>
+							<button class="btn red btn-block btn-lg">Sign up for free</button>
+						</div>		
+					</div>
+					<!-- <div class="modal" id="info">
+  						<div class="modal-dialog">
+    						<div class="modal-content">
+      							<div class="modal-header">
+        							<h5 class="modal-title">Modal title</h5>
+        							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          							<span aria-hidden="true">&times;</span>
+       								</button>
+     							</div>
+      							<div class="modal-body">
+        							<p>Modal body text goes here.</p>
+      							</div>
+      							<div class="modal-footer">
+				        		</div>
+				    		</div>
+				  		</div>
+					</div> -->
 
 
 
 	<script src="jquery.js"></script>
 	<script src="popper.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
 </body>
-</html>
+</html>	
+				
