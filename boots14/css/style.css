@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.help {
+	width: 15px;
+	height: 15px;
+}
+.icons li {
+	height:50px;
+	font-size: 20px;
+}
