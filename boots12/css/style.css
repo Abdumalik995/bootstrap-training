@@ -30,8 +30,12 @@ body {
 	width: 30px;
 	height: 30px;
 }
-.rasm .far {
+.rasm .fas {
 	font-size: 25px;
+	color: #ccc;
+}
+#rasm li:hover .fas {
+	color: blue !important;
 }
 #rasm {
 	background: #eee;
@@ -39,7 +43,7 @@ body {
 
 #rasm li:hover  {
 	background: #fff !important;
-	color: blue;
+	
 }
 
 .fon img {
