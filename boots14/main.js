@@ -16,4 +16,20 @@ $(document).ready(function() {
 	});
 
 	$('[data-toggle="popover"]').popover();
+
+	$('#close').click(function() {
+		$('#glav').css('display','none');
+	});
+	$('#card').click(function() {
+		$('#glav').css('max-width','768px')
+	})
+	$('#card').dblclick(function() {
+		$('#glav').css('max-width','1150px')
+	}); 
+	$('#green').click(function() {
+		$('#glav').fadeOut('slow')
+	});
+	$('body, html').dblclick(function() {
+		$('#glav').fadeIn();
+	})
 })
