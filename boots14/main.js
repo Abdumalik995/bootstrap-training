@@ -14,7 +14,10 @@ $(document).ready(function() {
 	$('.lastdiv1').mouseleave(function() {
 		$(this).css('display','none')
 	});
-
+	/*$('.brt').click(function() {
+		$(this).css('transform','rotate(180deg)')
+	});
+*/
 	$('[data-toggle="popover"]').popover();
 
 	$('#close').click(function() {
