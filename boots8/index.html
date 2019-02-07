@@ -10,38 +10,40 @@
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Nothing+You+Could+Do|Patua+One|Roboto|Yellowtail" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-	<section class="text-white pb-5" id="hero">
-		<header class="mb-5 fixed-top">
-			<div class="container">			 
-			 	<nav class="navbar sticky-top">
-					<h3 class="font-italic">Gustafo</h3>
-					<button class="navbar-toggler display-1 font-bold" data-target="#navbar" data-toggle="collapse">=</button>
-					<div class="collapse navbar-collapse" id="navbar">
-						<div class="navbar-nav nav-justified">
-							<ul class="navbar-nav nav-pills nav-justified">
-								<li class="nav-item"><a href="#" class="nav-link font-weight-light text-white">WELCOME </a></li>
-								<li class="nav-item"><a href="#" class="nav-link text-white">MENU </a></li>
-								<li class="nav-item"><a href="#" class="nav-link text-white">RESRVATIONS </a></li>
-								<li class="nav-item"><a href="#" class="nav-link text-white">NEWS </a></li>			
-								<li class="nav-item"><a href="#" class="nav-link text-white">CONTACT </a></li>		
-							</ul>
-							<ul class="navbar-nav  nav-justified text-white">
+<body>	
+	<header class="mb-5 text-white fixed-top">		 		 
+		
+			<nav class="navbar navbar-expand-md">
+				<h3 class="font-italic navbar-brand mx-4">Gustafo</h3>
+				<button class="navbar-toggler display-1 font-bold text-white" data-target="#navbar" data-toggle="collapse"><i class="fas fa-bars"></i></button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbar">
+					<div class="navbar-nav">
+						<ul class="navbar-nav nav-pills list-unstyled text-center nav-justified mx-5" id="my">
+							<li class="nav-item"><a href="#hero" class="nav-link text-white active">WELCOME </a></li>
+							<li class="nav-item"><a href="#cakes" class="nav-link text-white">MENU </a></li>
+							<li class="nav-item"><a href="#pancake" class="nav-link text-white">RESRVATIONS </a></li>
+							<li class="nav-item"><a href="#break" class="nav-link text-white">NEWS </a></li>			
+							<li class="nav-item"><a href="#sand" class="nav-link text-white">CONTACT </a></li>		
+						</ul>
+							<!-- <ul class="navbar-nav text-center nav-justified">
 								<li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-twitter"></i></a></li>
 								<li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-facebook-f"></i></a></li>
 								<li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
+							</ul> -->
 					</div>
-				</nav>	
-			</div>	
-		</header>
+				</div>
+			</nav>	
+		
+	</header>
+	<main data-spy="scroll" data-target="#my" data-offset="50">
+	<section class="text-white py-5 active" id="hero">
 		<div class="container text-center pt-5">
 			<h1 class="display-1 m-5 text-light">Pastry with love</h1>
 			<div class="text-center pt-5 mb-4">
 			<h5 class="mt-5 text-white">We're bringing you fresh ingredients every<br> day in ways you can't resists</h5>
 			</div>
-			<button class="btn text-light m-5 px-5 font-weight-light">OUR MENU</button>
+			<button data-toggle="tooltip" data-placement="bottom" title="click here" class="btn text-light m-5 px-5 font-weight-light">OUR MENU</button>
+			
 		</div>
 	</section>
 	<secion id="cakes">
@@ -178,6 +180,7 @@
 			<hr>
 		</div>
 	</section>
+	</main>
 						
 					
 				
@@ -192,5 +195,6 @@
 	<script src="jquery.js"></script>
 	<script src="popper.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>

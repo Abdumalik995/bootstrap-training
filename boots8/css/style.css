@@ -13,6 +13,16 @@ header h3, .fon h3 {
 header .fab {
 	font-size: 20px;
 }
+main {
+	overflow-y: scroll;
+	height: 100vh;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #fff;
+    color: crimson !important;
+    font-weight: bold;
+}
 #hero h1 {
 	font-family: 'Patua One', cursive;
 	

@@ -1,17 +1,17 @@
-// fetch('https://jsonplaceholder.typicode.com/todos')
-// 	.then(res => res.json())
-// 	.then(data => {
-//     	var newData = data.slice(0, 10);
-//     	console.log(newData)
-//     	var num = [2, 3, 4, 5, 7, 9];
-//     	var k = newData.map((n, i) => {
-//         return n
-//     }).sort((a, b) => a - b);
-//     var task = newData.filter(item => item.completed === true);
-//     console.log(task);
-//     var about = newData.filter(b => b.title.includes('tem'))
-//     console.log(about)
-// }).catch(err => console.log(err));
+fetch('https://jsonplaceholder.typicode.com/todos')
+	.then(res => res.json())
+	.then(data => {
+    	var newData = data.slice(0, 10);
+    	console.log(newData)
+    	var num = [2, 3, 4, 5, 7, 9];
+    	var k = newData.map((n, i) => {
+        return n
+    }).sort((a, b) => a - b);
+    var task = newData.filter(item => item.completed === true);
+    console.log(task);
+    var about = newData.filter(b => b.title.includes('tem'))
+    console.log(about)
+}).catch(err => console.log(err));
 
 
 //185.199.108.135
@@ -44,35 +44,10 @@ p.push(k)
  */
 
 
-var pa = document.getElementById('result');
-let myData = [];
-let el = [];
-let select = function(sel) {
- 			return document.getElementById(sel)
- 		}
-
- fetch('https://jsonplaceholder.typicode.com/todos')
- 	.then(data => data.json())
- 	.then(res => { 		
- 		myData = res.slice(0, 10);
- 		el = pa.children;
- 		res.slice(0, 10).forEach((item, index) => {
- 		const li = `<li id=${item.id} onclick="remove(${item.id})">${item.userId} - ${item.id} - ${item.title}</li>`;
- 		pa.innerHTML += li;
- 		})
- 	})
- 	.catch(err => console.log(err))
-
- 	function remove(id) {
- 		let found = myData.find(item => item.id === id)
- 		//myData = myData.filter(item => item.id !== id);
- 		//console.log('new data', myData)
- 		//console.log('find', found);
-
- 		select('user').style.display = 'block';
- 		select('name') = found.name;
 
 
- 	}
+
+
+
 
  	
