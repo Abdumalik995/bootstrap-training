@@ -63,9 +63,9 @@ fetch('https://jsonplaceholder.typicode.com/photos')
         
        
         select('fech').style.display = 'block';
-        select('bir').innerHTML += `<img class="img-fluid" src=${found.url}>`;
-        select('two').innerHTML += found.id;
-        select('url').innerHTML += found.title;       
+        select('bir').innerHTML = `<img class="img-fluid" src=${found.url}>`;
+        select('two').innerHTML = found.id;
+        select('url').innerHTML = found.title;       
     }
 
     function ha() {
