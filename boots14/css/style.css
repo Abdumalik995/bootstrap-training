@@ -22,11 +22,15 @@ body {
 	color: blue;
 
 }
+#sred {
+	height: 635px;
+}
 .btn1 {
 	width: 110px;
 	height: 28px;
 	font-size: 12px;
 	border-radius: 15px;
+	overflow: hidden;
 }
 .btn2 {
 	width: 150px;

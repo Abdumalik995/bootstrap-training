@@ -16,23 +16,24 @@ $(document).ready(function() {
 	});
 	/*$('.brt').click(function() {
 		$(this).css('transform','rotate(180deg)')
-	});
-*/
+	});*/
+
 	$('[data-toggle="popover"]').popover();
 
 	$('#close').click(function() {
 		$('#glav').css('display','none');
 	});
 	$('#card').click(function() {
-		$('#glav').css('max-width','768px')
+		$('#glav').animate({width:'870px'}, 1000)
 	})
 	$('#card').dblclick(function() {
-		$('#glav').css('max-width','1150px')
+		$('#glav').animate({width:'1150px'}, 500)
 	}); 
 	$('#green').click(function() {
-		$('#glav').fadeOut('slow')
+		$('#glav').fadeOut();
 	});
+	
 	$('body, html').dblclick(function() {
 		$('#glav').fadeIn();
-	})
+	});
 })
