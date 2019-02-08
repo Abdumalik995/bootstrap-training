@@ -1,6 +1,6 @@
 var pa = document.getElementById('result');
 let myData = [];
-let el = [];
+
 let found = [];
 let select = function(sel) {
             return document.getElementById(sel)
