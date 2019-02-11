@@ -19,7 +19,7 @@ fetch('https://jsonplaceholder.typicode.com/photos')
     .catch(err => console.log(err))
 
     function remove(id) {
-        found = myData.find(item => item.id === id);       
+        found = myData.find(item => item.id === id);  
        
         select('fech').style.display = 'block';
         select('bir').innerHTML = `<img class="img-fluid" src=${found.url}>`;

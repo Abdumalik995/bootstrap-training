@@ -16,3 +16,16 @@ fetch('https://jsonplaceholder.typicode.com/users')
             console.log("ok")
         })
     })
+
+    //var name = "abdumalik";
+//var lname = name.split('').map(ism => ism.toUpperCase);
+//console.log(lname);
+
+//Array.from('abdumalik', ism => ism.toUpperCase());
+//name.split('').map(n => n.toUpperCase());
+
+let str = 'Hello World';
+let strIn = Array.from(str);
+let index = strIn.indexOf('M');
+let sd = strIn.fill('W', index, index+1);
+console.log(sd);

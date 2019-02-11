@@ -1,6 +1,5 @@
 var pa = document.getElementById('result');
 let myData = [];
-
 let found = [];
 let select = function(sel) {
             return document.getElementById(sel)
@@ -13,7 +12,7 @@ let select = function(sel) {
         res.slice(0, 10).forEach((item, index) => {
             const li = `<li id=${item.id} onclick="remove(${item.id})">${item.userId} - ${item.id} - ${item.title}</li>`;
             pa.innerHTML += li;
-            console.log(myData);
+            console.log(myData); 
         })
     })
     .catch(err => console.log(err))
