@@ -29,4 +29,11 @@ input {
 	border-radius: 5px;
 	font-size: 12px;
 	padding-left: 4px;
+	margin-left: 5px;
+}
+#foot {
+
+	background: #000;
+	height: 47px;
+	line-height: 47px;
 }
