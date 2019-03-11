@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background: #fff;
+    color: #000;
+}
+#targ {
+    position: absolute;
+    top: 90%;
+}
+#targ div {
+    width: 50px;
+    height: 7px;
+    background: #fff;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.add {
+	background: orange !important;
+}
+#targ>div:hover {
+    background: orange;
+}
+#logo {
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    background: url(../../img/40.jpg) no-repeat center;
+}
+#navbar div {
+    height: 60px;
+    line-height: 50px;
+}
+header nav a {
+    color: #000;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: crimson!important;
+    font-weight: bold;
+    background-color: #ff9800 !important;
+}
+header nav ul li a:hover {
+    color: crimson;
+}
+/*Hero area*/
+
+#hero {
+    width: 100%;
+    height: 635px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../img/eneos.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pro {
+    width: 100%;
+    height: 630px;
+    background: transparent;
+}
+.oilAc {
+    height: 7px;
+}
+#about {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/crs.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#products {
+    background: transparent;
+}
+#product {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/sp.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#foot {
+    background: #1a1b1d;
+}
+#foot div div p {
+    margin: 0;
+}
+#foot h5 {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.fot {
+    height: 50px;
+    line-height: 50px;
+}
