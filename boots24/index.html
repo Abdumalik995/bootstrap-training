@@ -39,8 +39,8 @@
 		<h2 class="display-3 text-white font-weight-bold mb-4">
 			Your lawn and landscape the way that it should 
 		</h2>
-		<button class="btn btn-success text-white mr-3 btn-lg font-weight-bold">MACKS of US</button>
-		<button class="btn bg-transparent btn-outline-success text-white btn-lg font-weight-bold">GET IN TOUCH</button>
+		<button data-toggle="tooltip" data-placement="bottom"  title=" click here " class="btn btn-primary text-white mr-3 btn-lg font-weight-bold">MACKS of US</button>
+		<button class="btn bg-transparent btn-outline-primary text-white btn-lg font-weight-bold">GET IN TOUCH</button>
 		</div>
 	</section>
 	<section class="p-5">
@@ -74,14 +74,14 @@
 
 			<div data-target="#coll" data-toggle="collapse" id="product">
 			<div class="con pl-5 pt-5">
-				<h1 class="font-weight-bold my-5 ml-sm-3">Product X</h1>
+				<h1 class="font-weight-bold my-5 ml-sm-3 text-center">Product X</h1>
 				<div class="pt-5">
 					
 				</div>
 			</div>
 		</div>
-		<div class="row m-0 collapse" id="coll">
-			<div class="col-12 col-sm-9 pt-5 px-0">
+		<div class="m-0 collapse" id="coll">
+			<div class="pt-5 px-0">
 				<div class="card border-0 w-75 m-auto">
 					<img src="img/5w.jpg" class="card-img-top">					
 				</div>
@@ -133,49 +133,73 @@
 					</table>				
 				</div>
 			</div>
-			<div class="col-12 col-sm-3 pt-5" style="background: #1a1b1d">
-				<div class="w-100 m-auto">
-					<h5 class="font-weight-bold">Products</h5>
-					<div class="w-100 mt-2 mt-md-5" style="background: #000">
-						<ul class="list-unstyled m-0 mb-5 p-0">
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Passenger Car</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Motocycle</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Diesel Engine Oil</h6></li>
-							<li class="py-2 pl-1 pl-md-4"><h6 >Others</h6></li>
-							<li class="bg-warning" style="height: 7px;"></li>
-						</ul>
-						
-					</div>
-
-					<h5 class="font-weight-bold pt-2 pt-md-5">Featured Products</h5>
-					<div class="w-100 mt-2 mt-md-5" style="background: #000">
-						<ul class="list-unstyled m-0 mb-5 p-0">
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Product</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Product</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>Product</h6></li>
-							<li class="py-2 pl-1 pl-md-4"><h6>Product</h6></li>
-							<li class="bg-warning" style="height: 7px;"></li>
-						</ul>
-						
-					</div>
-
-					<h5 class="font-weight-bold pt-2 pt-md-5">Latest News</h5>
-					<div class="w-100 mt-2 mt-md-5" style="background: #000">
-						<ul class="list-unstyled m-0 p-0">
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>News</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>News</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>News</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>News</h6></li>
-							<li class="border-bottom border-dark py-2 pl-1 pl-md-4"><h6>News</h6></li>							
-							<li class="bg-dark py-1 text-center"><h6>View All</h6></li>							
-							<li class="bg-warning" style="height: 7px;"></li>
-						</ul>
-						
-					</div>
+			
+		</div>
+	</section>	
+	<section class="p-5">
+		<div class="container">
+			<h3 class="font-weight-bold text-dark m-5 text-center">Home Page for Form</h3>
+			<div class="row">
+					<form action="mailto:abdumalik.botirov.95@mail.ru" method="POST" class="offset-sm-2 offset-lg-3 col-lg-6 col-sm-8">
+						<div class="form-group mb-3">							
+							<input type="text" name="text" class="form-control" placeholder="Ismingiz">
+						</div>
+						<div class="form-group mb-3">							
+							<input type="email" name="mail" class="form-control" placeholder="Email manzilingiz">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" name="message" placeholder="Xabar matni uchun"></textarea>
+						</div>			
+						<div class="text-center">
+							<button class="btn btn-danger mt-3 px-1 px-sm-5">SHARED</button>
+						</div>
+					</form>
 				</div>
+		</div>
+	</section>
+	<button class="btn btn-warning" id="no">Button</button>
+	<div class="modal" id="modal1" style="">
+			<div class="modal-content">
+				<p class="orange" id="p1">View localised content for Myanmar?</p>
+				<p class="orange" id="p2">We noticed that you are surfing from Myanmar. Would you like to view localised content for Myanmar?</p>
+				<p class="" id="p3" style="color:#fff">အကြှနျုပျတို့သညျမြန်မာကနေ surfing ဖြစ်ကြောင်းသတိပြုမိသည်။ သငျသညျမြန်မာနိုင်ငံအတွက်ဒေသတွင်းအကြောင်းအရာကိုကြည့်ရှုရန်လိုပါသလား</p>
+				<p id="modal-buttons"><button class="btn">English</button><button class="btn">မြန်မာ</button><button class="close" id="no">No</button></p>
+			</div>
+			<div class="modal-footer">
+				<button class="close px-7 py-3" id="close-modal">X</button>
 			</div>
 		</div>
-	</section>		
+	<div id="hire" class="modal text-dark">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Men bilan bog'lanish</h3>
+							<button class="close" data-dismiss="modal">X</button>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<form action="#" method="post" class="offset-2 offset-lg-2 col-lg-8 col-8">
+									<div class="form-group mb-3">										
+										<input type="text" name="text" class="form-control" placeholder="Ismingiz">
+									</div>
+									<div class="form-group mb-3">										
+											<input type="email" name="mail" class="form-control" placeholder="Email manzilingiz">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" rows="5" name="message" placeholder="Xabar matni uchun"></textarea>
+									</div>			
+									<div class="text-center">
+										<button class="btn btn-danger mt-3 px-1 px-sm-5">Contact Me</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="modal-footer">
+							Ko'rishguncha
+						</div>
+					</div>
+				</div>
+			</div>	
 	
 	<script src="jquery.js"></script>
 	<script src="popper.js"></script>

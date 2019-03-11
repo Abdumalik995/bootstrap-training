@@ -18,6 +18,9 @@ header {
 	background: url(../../img/tun.jpg) no-repeat center;
 	background-size: cover;
 }
+.block {
+	display: block;
+}
 #fon1 {
 	margin-top: 60px;
 	background: rgba(0, 0, 0, 0.5);
